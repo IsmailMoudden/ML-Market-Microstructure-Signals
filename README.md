@@ -6,7 +6,7 @@ A machine learning system for predicting short-term mid-price moves from order b
 
 **Note**: This is a student project - some features are experimental and results may vary.
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Installation
 
@@ -41,7 +41,7 @@ python -m ml_microstructure.backtest.run run_id=<mlflow_run_id>
 streamlit run ml_microstructure/dashboards/streamlit_app.py
 ```
 
-## 📊 Features
+## Features
 
 ### Data Sources
 - **Synthetic LOB**: Poisson arrival generator for testing
@@ -75,7 +75,7 @@ streamlit run ml_microstructure/dashboards/streamlit_app.py
 - **Backtest Results**: Equity curves, drawdown analysis
 - **Interactive Charts**: Plotly-based visualizations
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ml_microstructure/
@@ -93,7 +93,7 @@ notebooks/          # Jupyter notebooks for EDA
 reports/            # LaTeX research reports
 ```
 
-## 📈 Example Workflow
+## Example Workflow
 
 ### 1. Data Preparation
 
@@ -153,7 +153,7 @@ results = runner.run(run_id="your_mlflow_run_id")
 print(results["report"])
 ```
 
-## 🔧 Configuration
+## Configuration
 
 The system uses Hydra for configuration management. Key configuration files:
 
@@ -188,7 +188,7 @@ labeling:
   method: ternary
 ```
 
-## 📊 Performance Metrics
+## Performance Metrics
 
 The backtesting system calculates comprehensive performance metrics:
 
@@ -197,7 +197,7 @@ The backtesting system calculates comprehensive performance metrics:
 - **Trade Metrics**: Hit rate, profit factor, turnover
 - **Risk-Adjusted Metrics**: Calmar ratio, information ratio
 
-## 🧪 Testing
+## Testing
 
 ```bash
 # Run all tests
