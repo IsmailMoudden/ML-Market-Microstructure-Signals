@@ -211,14 +211,14 @@ pytest -m "not slow"  # Skip slow tests
 pytest -m integration  # Integration tests only
 ```
 
-## 📚 Documentation
+## Documentation
 
 - **Research Paper**: [ML_Microstructure_Signals_Research_Paper.pdf](ML_Microstructure_Signals_Research_Paper.pdf) - Complete academic paper with results and analysis
 - **Paper Sources**: LaTeX source files in `reports/paper/sources/`
 - **API Documentation**: Available in `docs/` (generated with Sphinx)
 - **Jupyter Notebooks**: Examples in `notebooks/`
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -240,7 +240,7 @@ black --check .
 mypy ml_microstructure/
 ```
 
-## ⚠️ Limitations & Development Challenges
+## Limitations & Development Challenges
 
 ### Technical Limitations
 - **Synthetic data only**: Models tested mainly on generated data, no validation on real high-frequency data
@@ -260,11 +260,11 @@ mypy ml_microstructure/
 - No operational risk management
 - Manual hyperparameter optimization
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **LOBSTER**: High-frequency order book data
 - **Kaggle**: Cryptocurrency datasets
@@ -272,13 +272,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Hydra**: Configuration management
 - **Streamlit**: Dashboard framework
 
-## 📞 Support
+## Support
 
 For questions and support:
 
-- 📧 Email: ismail.moudden1@gmail.com
-- 🐛 Issues: [GitHub Issues](https://github.com/IsmailMoudden/ML-Microstructure-Signals/issues)
-- 📖 Documentation: [Wiki](https://github.com/IsmailMoudden/ML-Microstructure-Signals/wiki)
+- Email: ismail.moudden1@gmail.com
+- Issues: [GitHub Issues](https://github.com/IsmailMoudden/ML-Microstructure-Signals/issues)
+- Documentation: [Wiki](https://github.com/IsmailMoudden/ML-Microstructure-Signals/wiki)
 
 ## Roadmap
 
@@ -291,7 +291,7 @@ For questions and support:
 
 ---
 
-**⚠️ Disclaimer**: This software is for educational and research purposes only. It is not intended for live trading without proper risk management and testing.
+**Disclaimer**: This software is for educational and research purposes only. It is not intended for live trading without proper risk management and testing.
 
 
 
