@@ -2,7 +2,7 @@
 
 A machine learning system for predicting short-term mid-price moves from order book features and backtesting trading signals.
 
-**Report**: [ML_Microstructure_Signals_Research_Paper.pdf](ML_Microstructure_Signals_Research_Paper.pdf) 
+**Report**: [ML_Microstructure_Signals Report.pdf](ML_Microstructure_Signals_Research_Paper.pdf) 
 
 **Note**: This is a student project - some features are experimental and results may vary.
 
@@ -213,8 +213,8 @@ pytest -m integration  # Integration tests only
 
 ## Documentation
 
-- **Research Paper**: [ML_Microstructure_Signals_Research_Paper.pdf](ML_Microstructure_Signals_Research_Paper.pdf) - Complete academic paper with results and analysis
-- **Paper Sources**: LaTeX source files in `reports/paper/sources/`
+- **Report**: [ML_Microstructure_Signals_Report.pdf](ML_Microstructure_Signals_Research_Paper.pdf) - Complete report with results and analysis
+- **Report Sources**: LaTeX source files in `reports/paper/sources/`
 - **API Documentation**: Available in `docs/` (generated with Sphinx)
 - **Jupyter Notebooks**: Examples in `notebooks/`
 
